@@ -1,0 +1,36 @@
+body{
+    width: 960px;
+}
+
+header{
+    height: 300px;
+    background-image: url("../images/headerImg.png");
+    background-size: cover;
+    aspect-ratio: 100/34;
+}
+
+main{
+    width: 80%;
+}
+
+header>h1{
+    text-align: center;
+    line-height: 300px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#gallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#gallery div{
+    width: 25%;
+}
+
+#gallery div>img{
+    width: 100%;
+}
