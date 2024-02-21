@@ -1,36 +1,89 @@
-body{
+body {
     width: 960px;
+    background-color: rgb(240, 240, 240);
 }
 
-header{
+header {
     height: 300px;
+    width: 100%;
     background-image: url("../images/headerImg.png");
     background-size: cover;
     aspect-ratio: 100/34;
+    margin-bottom: 3vh;
 }
 
-main{
-    width: 80%;
-}
-
-header>h1{
+header>h1 {
     text-align: center;
     line-height: 300px;
     font-size: 40px;
     font-weight: bold;
 }
 
-#gallery{
+h2,
+footer {
+    color: white;
+    background-color: rgb(74, 116, 213);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 3vh;
+    font-size: 3vw;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+table {
+    margin: auto;
+}
+
+tr>* {
+    text-align: center;
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 0 3vw;
+}
+
+th {
+    color: white;
+    background-color: rgb(34, 34, 34);
+}
+
+#about {
+    margin-bottom: 3vh;
+}
+
+#about p {
+    background-color: white;
+    border-radius: 3%;
+    padding: 3vh;
+}
+
+#sales {
+    margin-bottom: 3vh;
+}
+
+.images {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 
-#gallery div{
-    width: 25%;
+.images div {
+    width: 24%;
 }
 
-#gallery div>img{
+#gallery {
+    margin-bottom: 3vh;
+}
+
+#gallery div>img {
     width: 100%;
 }
